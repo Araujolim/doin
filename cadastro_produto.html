@@ -20,6 +20,18 @@
       <input type="text" size="50" name="id_produto" id="id_produto">
       <br>
       <br>
+      <label for="dt_validade">Data de validade: </label>
+      <input type="date" name="dt_validade" id="dt_validade">
+      <br>
+      <br>
+      <label for="estado">Estado: </label>
+      <input type="text" size="50" name="estado" id="estado">
+      <br>
+      <br>
+      <label for="cidade">Cidade: </label>
+      <input type="text" size="50" name="cidade" id="cidade">
+      <br>
+      <br>
       <label for="descricao_produto">Descrição: </label>
       <input type="text" size="50" name="descricao_produto" id="descricao_produto">
       <br>
@@ -27,7 +39,15 @@
       <label for="quant_produto">Quantidade: </label>
       <input type="text" size="50" name="quant_produto" id="quant_produto">
       <br>
-      <br><div id="botao">
+      <h3>Modo de operação: </h3>
+      <div>
+        <input type="radio"  name="modoOperacao" value="troca">
+        <label for="huey">Troca</label>
+        <input type="radio"  name="modoOperacao" value="doacao">
+        <label for="huey">Doação</label>
+      </div>
+      <br>
+      <div id="botao">
       <button type="submit">Enviar</button>
       </div>
       </div>
